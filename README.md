@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> This repository has been archived and is no longer maintained.
+> The code is provided for historical reference and may contain unpatched or unknown vulnerabilities.
+> It should not be used in production systems.
+
 # GraST
 
 GrasT is a C++ implementation of some streaming graph algorithms. Currently, GraST implements two graph problems: 1) approximate maximum weight matching and 2) approximate minimum weight edge cover. GraST supports two ways to simulate streams: 1) edge read one by one from a matrix market (MTX) format file, which is used to report memory and overall runtime performance, and 2) read all the edges from a file (only support mtx format for now) and then stream from memory, which is used to compare the algorithmic time to the offline algorithms. Please see the following paper for details on the implementation and results for streaming matching and edge cover. Also, if you use GraST, please cite this paper.
